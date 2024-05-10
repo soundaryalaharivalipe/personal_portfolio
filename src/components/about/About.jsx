@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/about-me-pic.jpeg';
+import { MdOutlineCollectionsBookmark } from "react-icons/md";
 import { LiaAwardSolid } from "react-icons/lia";
 import { GrCertificate } from "react-icons/gr";
 
@@ -19,7 +20,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            {/* Removed unused MdOutlineCollectionsBookmark icon */}
+          <MdOutlineCollectionsBookmark className='about__icon'/>
             <article className='about__card'>
               <h5> Experience</h5>
               <small> 2 years </small>
