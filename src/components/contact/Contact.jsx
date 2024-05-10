@@ -7,9 +7,8 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = useRef();
-  const [messageStatus, setMessageStatus] = useState(''); // State to manage message status
+  const [messageStatus, setMessageStatus] = useState('');
 
-  // Function to send the email
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -18,12 +17,12 @@ const Contact = () => {
       .then(
         (result) => {
           console.log('SUCCESS!', result);
-          e.target.reset(); // Reset form fields after successful submission
-          setMessageStatus('Message is successfully sent'); // Set success message
+          e.target.reset();
+          setMessageStatus('Message is successfully sent');
         },
         (error) => {
-          console.error('FAILED...', error); // Log the entire error object
-          setMessageStatus('Failed to send message, please try again later'); // Set failure message
+          console.error('FAILED...', error);
+          setMessageStatus('Failed to send message, please try again later');
         }
       );
   };
@@ -57,13 +56,11 @@ const Contact = () => {
           </article>
         </div>
 
-        {/* Form Submission */}
         <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your full name' required />
           <input type='text' name='email' placeholder='Your email' required />
           <textarea name='message' rows='7' placeholder='Your message' required />
           <button type='submit' className='btn btn-primary'>Send Message</button>
-          {/* Display the success or error message */}
           {messageStatus && <p>{messageStatus}</p>}
         </form>
       </div>
