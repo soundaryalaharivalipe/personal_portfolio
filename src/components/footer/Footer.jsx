@@ -1,5 +1,5 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+import './footer.css';
 import { BsLinkedin } from "react-icons/bs";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -7,10 +7,10 @@ import { FaSquareInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer__logo'>LAHARI</a>
+      <a href='/' className='footer__logo'>LAHARI</a>
 
       <ul className='permalinks'>
-        <li><a href='#'>HOME</a></li>
+        <li><a href='/'>HOME</a></li>
         <li><a href='#about'>ABOUT</a></li>
         <li><a href='#experience'>EXPERIENCE</a></li>
         <li><a href='#services'>SERVICES</a></li>
@@ -23,14 +23,13 @@ const Footer = () => {
         <a href='https://www.linkedin.com/in/soundarya-lahari-valipe'><BsLinkedin /></a>
         <a href='https://github.com/laharisv1998'><IoLogoGithub /></a>
         <a href='https://www.instagram.com/_soundaryalahari_/'><FaSquareInstagram /></a>
-
       </div>
     
-    <div className="footer__copyright">
-      <small> &copy; Soundarya Lahari Valipe. All Rights Reserved</small>
-    </div>
+      <div className="footer__copyright">
+        <small> &copy; Soundarya Lahari Valipe. All Rights Reserved</small>
+      </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
