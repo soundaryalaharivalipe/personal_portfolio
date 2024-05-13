@@ -3,16 +3,6 @@
     
 }
 
-.award-list {
-    list-style-type: disc;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center; /* Align the text centrally to the icon */
-  }
-
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -56,10 +46,9 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 4rem;
+    padding: 3rem;
     text-align: center;
     transition: var(--transition);
-    width: 100%; /* Make the card fill its grid cell */
 }
 
 .about__card:hover {
