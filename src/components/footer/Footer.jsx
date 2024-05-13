@@ -7,7 +7,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer>
-      <a href='/' className='footer__logo'>LAHARI</a>
+      <a href='/' className='footer__logo'>SOUNDARYA LAHARI VALIPE</a>
 
       <ul className='permalinks'>
         <li><a href='/'>HOME</a></li>

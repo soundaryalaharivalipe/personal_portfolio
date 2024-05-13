@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 import './contact.css';
 import { MdEmail } from "react-icons/md";
-import { BsMessenger } from "react-icons/bs";
-import { IoLogoWhatsapp } from "react-icons/io";
+/* import { BsMessenger } from "react-icons/bs";
+import { IoLogoWhatsapp } from "react-icons/io"; */
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -37,23 +37,23 @@ const Contact = () => {
           <article className='contact__option'>
             <MdEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>dummyemail@gmail.com</h5>
+            <h5>slahariv@gmail.com</h5>
             <a href='mailto:dummyemail@gmail.com' target='_blank' rel='noopener noreferrer'>Send a message</a>
           </article>
 
-          <article className='contact__option'>
+{/*           <article className='contact__option'>
             <BsMessenger className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>dummy_me</h5>
             <a href='https://m.me/ernest.achiever' target='_blank' rel='noopener noreferrer'>Send a message</a>
-          </article>
+          </article> */}
 
-          <article className='contact__option'>
+{/*           <article className='contact__option'>
             <IoLogoWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+13213213215</h5>
             <a href='https://api.whatsapp.com/send?phone=13213213215' target='_blank' rel='noopener noreferrer'>Send a message</a>
-          </article>
+          </article> */}
         </div>
 
         <form ref={form} onSubmit={sendEmail}>

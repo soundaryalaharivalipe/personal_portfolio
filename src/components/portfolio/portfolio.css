@@ -1,3 +1,8 @@
+#portfolio {
+    padding-top: 20px; /* Adjust the value as needed */
+    
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
