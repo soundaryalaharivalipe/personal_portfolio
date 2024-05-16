@@ -3,53 +3,32 @@ import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Employee Details Management System',
+    github: 'https://github.comhttps://github.com/soundaryalaharivalipe/Employee_details_management_system',
+    demo: ''
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts, Templates and infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Subscription Box Management System',
+    github: 'https://github.com/soundaryalaharivalipe/Subscription_box_management_system',
+    demo: ''
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma Dashboard UI Kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Resume Classification using Natural Language Processing',
+    github: 'https://github.com/soundaryalaharivalipe/Resume_Classification_using_NLP',
+    demo: ''
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Charts templates and infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Charts templates and infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
-  },
+
+
 ];
 
 const Portfolio = () => {

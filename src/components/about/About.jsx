@@ -29,7 +29,7 @@ const About = () => {
             <article className='about__card'>
               <GrCertificate className='about__icon'/>
               <h5> Certifications </h5>
-              <small> AWS Certified Developer </small>
+              <small> <a href="https://www.credly.com/badges/e3f419f7-e7c6-4be9-8b3d-f31b7ef35057/public_url">AWS Certified Developer  </a></small>
             </article>
 
             <article className='about__card'>
