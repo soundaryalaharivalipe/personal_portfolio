@@ -10,7 +10,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Employee Details Management System',
-    github: 'https://github.comhttps://github.com/soundaryalaharivalipe/Employee_details_management_system',
+    github: 'https://github.com/soundaryalaharivalipe/Employee_details_management_system',
     demo: ''
   },
   {
