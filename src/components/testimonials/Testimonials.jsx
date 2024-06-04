@@ -28,7 +28,7 @@ const data = [
   {
     avatar: AVTR3,
     name: 'Shrinidhi Rao Aroor',
-    review: 'Your growth has been commendable, and it has been an extreme joy to work with you on multiple challenging tasks.'
+    review: 'Your growth has been commendable, and it has been an extreme joy to work with you on multiple challenging tasks. Your problem solving skills and go-getter attitude has a positive impact on the team which yields great results. Thank you for being a team player and for always focusing on the greater good.'
   },
   {
     avatar: AVTR4,
