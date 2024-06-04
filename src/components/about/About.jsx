@@ -35,10 +35,12 @@ const About = () => {
             <article className='about__card'>
               <LiaAwardSolid className='about__icon'/>
               <h5> Awards </h5>
-              <small> Rockstar Rookie </small>
+              <small> - Rockstar Rookie </small>
               <br></br>
-              <small> We Truly Appreciate </small>
-              <small> Standout Performer </small>
+              <small> - Standout Performer </small>
+              <br></br>
+              <small> - We Truly Appreciate </small>
+              <br></br>
             </article>
           </div>
 

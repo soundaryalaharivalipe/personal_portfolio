@@ -30,6 +30,22 @@ const Experience = () => {
       <article className='experience__details'>
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
+      <h4>SASS</h4>
+      
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Tailwind CSS</h4>
+      
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
       <h4>Javascript</h4>
       
       </div>
@@ -47,10 +63,17 @@ const Experience = () => {
       <article className='experience__details'>
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
-      <h4>React</h4>
-      <small className='text-light'>Experienced </small>
+      <h4>React.js</h4>
       </div>
       </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Material UI</h4>
+      </div>
+      </article>
+
 
 
     </div>
@@ -61,10 +84,27 @@ const Experience = () => {
 
     <h3> Backend Development </h3>
     <div className='experience__content'>
+
+    <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>SQL</h4>
+      
+      </div>
+      </article>
+
       <article className='experience__details'>
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
-      <h4>Node JS</h4>
+      <h4>NoSQL</h4>
+      
+      </div>
+      </article>
+      
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Node.js </h4>
       
       </div>
       </article>
@@ -89,10 +129,50 @@ const Experience = () => {
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
       <h4>MySQL</h4>
-      
       </div>
       </article>
 
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Spring Boot</h4>
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Express</h4>
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>REST APIs</h4>
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>REST</h4>
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Microservices</h4>
+      </div>
+      </article>
+
+      <article className='experience__details'>
+      <BsPatchCheckFill className='experience__details-icon' />
+      <div>
+      <h4>Redis</h4>
+      </div>
+      </article>
 
     </div>
 
