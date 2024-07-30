@@ -7,13 +7,7 @@ import IMG4 from '../../assets/portfolio4.jpg';
 
 
 const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: 'Subscription Box Management System',
-    github: 'https://github.com/soundaryalaharivalipe/Employee_details_management_system',
-    demo: ''
-  },
+
   {
     id: 2,
     image: IMG2,
@@ -35,6 +29,13 @@ const data = [
     github: 'https://github.com/soundaryalaharivalipe/Chat_Application',
     demo: ''
   },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Subscription Box Management System',
+    github: 'https://github.com/soundaryalaharivalipe/E-Commerce-Application',
+    demo: ''
+  }
 
 
 ];
