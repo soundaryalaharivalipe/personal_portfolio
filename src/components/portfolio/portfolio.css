@@ -25,6 +25,11 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 200px; /* Set a fixed height for the images */
+    width: 100%; /* Ensure the image takes full width of the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio__item h3 {
