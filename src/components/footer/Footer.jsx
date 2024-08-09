@@ -20,8 +20,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href='https://www.linkedin.com/in/soundarya-lahari-valipe'><BsLinkedin /></a>
-        <a href='https://github.com/laharisv1998'><IoLogoGithub /></a>
+        <a href='https://www.linkedin.com/in/soundarya--lahari/'><BsLinkedin /></a>
+        <a href='https://github.com/soundaryalaharivalipe'><IoLogoGithub /></a>
         <a href='https://www.instagram.com/_soundaryalahari_/'><FaSquareInstagram /></a>
       </div>
     

@@ -7,6 +7,22 @@ import IMG4 from '../../assets/portfolio4.jpg';
 
 
 const data = [
+  
+  {
+    id: 1,
+    image: IMG1,
+    title: 'E-Commerce Application',
+    github: 'https://github.com/soundaryalaharivalipe/E-Commerce-Application',
+    demo: ''
+  },
+
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Chat Application',
+    github: 'https://github.com/soundaryalaharivalipe/Chat_Application',
+    demo: ''
+  }, 
 
   {
     id: 2,
@@ -15,25 +31,12 @@ const data = [
     github: 'https://github.com/soundaryalaharivalipe/Quiz-Application',
     demo: ''
   },
+
   {
     id: 3,
     image: IMG3,
     title: 'Resume Classification using Natural Language Processing',
     github: 'https://github.com/soundaryalaharivalipe/Resume_Classification_using_NLP',
-    demo: ''
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Chat Application',
-    github: 'https://github.com/soundaryalaharivalipe/Chat_Application',
-    demo: ''
-  },
-  {
-    id: 1,
-    image: IMG1,
-    title: 'Subscription Box Management System',
-    github: 'https://github.com/soundaryalaharivalipe/E-Commerce-Application',
     demo: ''
   }
 
