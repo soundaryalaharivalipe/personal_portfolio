@@ -40,7 +40,6 @@ const data = [
     demo: ''
   }
 
-
 ];
 
 const Portfolio = () => {
