@@ -19,11 +19,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-{/*             <article className='about__card'>
-              <MdOutlineCollectionsBookmark className='about__icon'/>
-              <h5> Experience</h5>
-              <small> 5 years </small>
-            </article> */}
+
 
             <article className='about__card'>
               <GrCertificate className='about__icon'/>
