@@ -4,6 +4,8 @@ import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.png';
 import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
+import IMG5 from '../../assets/portfolio5.jpg';
+import IMG6 from '../../assets/portfolio6.jpg';
 
 
 const data = [
@@ -13,6 +15,14 @@ const data = [
     image: IMG1,
     title: 'E-Commerce Application',
     github: 'https://github.com/soundaryalaharivalipe/E-Commerce-Application',
+    demo: ''
+  },
+
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Netflix Clone',
+    github: 'https://github.com/soundaryalaharivalipe/netflix-clone/tree/main',
     demo: ''
   },
 
@@ -29,6 +39,14 @@ const data = [
     image: IMG2,
     title: 'Quiz Application',
     github: 'https://github.com/soundaryalaharivalipe/Quiz-Application',
+    demo: ''
+  },
+
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Spotify Clone',
+    github: 'https://github.com/soundaryalaharivalipe/spotify-clone',
     demo: ''
   },
 
