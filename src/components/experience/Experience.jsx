@@ -100,30 +100,6 @@ const Experience = () => {
     <h3> Backend Development </h3>
     <div className='experience__content'>
 
-    <article className='experience__details'>
-      <BsPatchCheckFill className='experience__details-icon' />
-      <div>
-      <h4>Java</h4>
-      
-      </div>
-      </article>
-
-      <article className='experience__details'>
-      <BsPatchCheckFill className='experience__details-icon' />
-      <div>
-      <h4>Spring Boot</h4>
-      
-      </div>
-      </article>
-
-      <article className='experience__details'>
-      <BsPatchCheckFill className='experience__details-icon' />
-      <div>
-      <h4>Spring MVC</h4>
-      
-      </div>
-      </article>
-
 
     <article className='experience__details'>
       <BsPatchCheckFill className='experience__details-icon' />
