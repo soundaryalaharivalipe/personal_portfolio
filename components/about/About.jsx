@@ -30,7 +30,7 @@ const About = () => {
             <article className='about__card'>
               <GrCertificate className='about__icon'/>
               <h5> Microsoft Certification </h5>
-              <small> <a href="">Microsoft Certified: Azure Developer Associate </a></small>
+              <small> <a href="">Microsoft Certified: Azure Developer Associate - Lahari </a></small>
             </article>
           
           </div>
