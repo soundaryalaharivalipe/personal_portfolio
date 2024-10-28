@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/about-me-pic.jpeg';
-import { LiaAwardSolid } from "react-icons/lia";
+//import { LiaAwardSolid } from "react-icons/lia";
 import { GrCertificate } from "react-icons/gr";
 
 const About = () => {
