@@ -144,7 +144,7 @@ const Experience = () => {
       <article className='experience__details'>
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
-      <h4>C#</h4>
+      <h4>Java</h4>
       
       </div>
       </article>
@@ -152,21 +152,8 @@ const Experience = () => {
       <article className='experience__details'>
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
-      <h4> .NET Core </h4>
-      </div>
-      </article>
-
-      <article className='experience__details'>
-      <BsPatchCheckFill className='experience__details-icon' />
-      <div>
-      <h4>ASP.NET Core </h4>
-      </div>
-      </article>
-
-      <article className='experience__details'>
-      <BsPatchCheckFill className='experience__details-icon' />
-      <div>
-      <h4>ASP.NET MVC</h4>
+      <h4>C#</h4>
+      
       </div>
       </article>
 
@@ -188,13 +175,6 @@ const Experience = () => {
       <BsPatchCheckFill className='experience__details-icon' />
       <div>
       <h4>Microservices</h4>
-      </div>
-      </article>
-
-      <article className='experience__details'>
-      <BsPatchCheckFill className='experience__details-icon' />
-      <div>
-      <h4>Entity</h4>
       </div>
       </article>
 
