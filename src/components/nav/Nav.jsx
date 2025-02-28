@@ -3,7 +3,7 @@ import './nav.css';
 import { IoHomeOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa6";
 import { MdOutlineLibraryBooks } from "react-icons/md";
-import { MdOutlineDesignServices } from "react-icons/md";
+
 import { TbMessages } from "react-icons/tb";
 import { useState } from 'react';
 
@@ -18,10 +18,7 @@ const Nav = () => {
             <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
                 <FaRegUser />
             </a>
-{/*             <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
-                
-                <MdOutlineDesignServices />
-            </a> */}
+
             <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}>
             <MdOutlineLibraryBooks />
             </a>
