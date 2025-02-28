@@ -9,6 +9,14 @@ import IMG6 from '../../assets/portfolio6.jpg';
 
 
 const data = [
+
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Interview Preparation Application',
+    github: 'https://github.com/soundaryalaharivalipe/Soundarya_InterviewPreparationApp',
+    demo: 'https://soundarya-interviewpreparationapp.onrender.com'
+  }, 
   
   {
     id: 1,
@@ -25,14 +33,6 @@ const data = [
     github: 'https://github.com/soundaryalaharivalipe/netflix-clone/tree/main',
     demo: ''
   },
-
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Chat Application',
-    github: 'https://github.com/soundaryalaharivalipe/Chat_Application',
-    demo: ''
-  }, 
 
   {
     id: 2,
