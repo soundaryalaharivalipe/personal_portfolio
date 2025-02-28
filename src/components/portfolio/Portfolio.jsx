@@ -15,8 +15,24 @@ const data = [
     image: IMG4,
     title: 'Interview Preparation Application',
     github: 'https://github.com/soundaryalaharivalipe/Soundarya_InterviewPreparationApp',
-    demo: 'https://soundarya-interviewpreparationapp.onrender.com'
+    demo: ''
   }, 
+
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Document Query ChatBot',
+    github: 'https://github.com/soundaryalaharivalipe/DocQuery',
+    demo: ''
+  },
+
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Resume Classification using Natural Language Processing',
+    github: 'https://github.com/soundaryalaharivalipe/Resume_Classification_using_NLP',
+    demo: ''
+  },
   
   {
     id: 1,
@@ -27,34 +43,18 @@ const data = [
   },
 
   {
-    id: 5,
-    image: IMG5,
-    title: 'Netflix Clone',
-    github: 'https://github.com/soundaryalaharivalipe/netflix-clone/tree/main',
-    demo: ''
-  },
-
-  {
-    id: 2,
-    image: IMG2,
-    title: 'Quiz Application',
-    github: 'https://github.com/soundaryalaharivalipe/Quiz-Application',
-    demo: ''
-  },
-
-  {
     id: 6,
     image: IMG6,
     title: 'Spotify Clone',
     github: 'https://github.com/soundaryalaharivalipe/spotify-clone',
     demo: ''
   },
-
+  
   {
-    id: 3,
-    image: IMG3,
-    title: 'Resume Classification using Natural Language Processing',
-    github: 'https://github.com/soundaryalaharivalipe/Resume_Classification_using_NLP',
+    id: 5,
+    image: IMG5,
+    title: 'Netflix Clone',
+    github: 'https://github.com/soundaryalaharivalipe/netflix-clone/tree/main',
     demo: ''
   }
 
@@ -75,7 +75,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
               <a href={github} className='btn'>Github</a>
-              <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live Demo</a>
+            
             </div> 
           </article>
         ))}

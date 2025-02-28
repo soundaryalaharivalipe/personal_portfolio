@@ -23,19 +23,14 @@ const About = () => {
 
             <article className='about__card'>
               <GrCertificate className='about__icon'/>
-              <h5> Certifications </h5>
-              <small> <a href="https://www.credly.com/badges/e3f419f7-e7c6-4be9-8b3d-f31b7ef35057/public_url">AWS Certified Developer  </a></small>
+              <h5> Amazon Certification </h5>
+              <small> <a href="https://www.credly.com/badges/e3f419f7-e7c6-4be9-8b3d-f31b7ef35057/public_url">AWS Certified Developer Associate </a></small>
             </article>
 
             <article className='about__card'>
-              <LiaAwardSolid className='about__icon'/>
-              <h5> Awards </h5>
-              <small> - Rockstar Rookie </small>
-              <br></br>
-              <small> - Standout Performer </small>
-              <br></br>
-              <small> - We Truly Appreciate </small>
-              <br></br>
+              <GrCertificate className='about__icon'/>
+              <h5> Microsoft Certification </h5>
+              <small> <a href="https://learn.microsoft.com/en-gb/users/soundaryalaharivalipe-1640/credentials/399b555f9a67911d"> Microsoft Certified Azure Developer Associate </a></small>
             </article>
           </div>
 

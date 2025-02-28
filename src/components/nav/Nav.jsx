@@ -18,10 +18,10 @@ const Nav = () => {
             <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
                 <FaRegUser />
             </a>
-            <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
+{/*             <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
                 
                 <MdOutlineDesignServices />
-            </a>
+            </a> */}
             <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}>
             <MdOutlineLibraryBooks />
             </a>
