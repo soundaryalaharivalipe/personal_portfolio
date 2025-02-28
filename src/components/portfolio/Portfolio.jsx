@@ -9,6 +9,14 @@ import IMG6 from '../../assets/portfolio6.jpg';
 
 
 const data = [
+
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Interview Preparation Application',
+    github: 'https://github.com/soundaryalaharivalipe/Soundarya_InterviewPreparationApp',
+    demo: 'https://soundarya-interviewpreparationapp.onrender.com'
+  }, 
   
   {
     id: 1,
@@ -25,14 +33,6 @@ const data = [
     github: 'https://github.com/soundaryalaharivalipe/netflix-clone/tree/main',
     demo: ''
   },
-
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Chat Application',
-    github: 'https://github.com/soundaryalaharivalipe/Chat_Application',
-    demo: ''
-  }, 
 
   {
     id: 2,
@@ -75,7 +75,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
               <a href={github} className='btn'>Github</a>
-            
+              <a href={demo} className='btn btn-primary' target='_blank' rel='noopener noreferrer'>Live Demo</a>
             </div> 
           </article>
         ))}

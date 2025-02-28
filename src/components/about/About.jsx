@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/about-me-pic.jpeg';
-//import { LiaAwardSolid } from "react-icons/lia";
+import { LiaAwardSolid } from "react-icons/lia";
 import { GrCertificate } from "react-icons/gr";
 
 const About = () => {
@@ -23,16 +23,20 @@ const About = () => {
 
             <article className='about__card'>
               <GrCertificate className='about__icon'/>
-              <h5> Amazon Certification </h5>
-             <small> <a href="https://www.credly.com/badges/e3f419f7-e7c6-4be9-8b3d-f31b7ef35057/public_url">AWS Certified Developer  </a></small>
+              <h5> Certifications </h5>
+              <small> <a href="https://www.credly.com/badges/e3f419f7-e7c6-4be9-8b3d-f31b7ef35057/public_url">AWS Certified Developer  </a></small>
             </article>
 
             <article className='about__card'>
-              <GrCertificate className='about__icon'/>
-              <h5> Microsoft Certification </h5>
-              <small> <a href="https://www.credly.com/badges/">Microsoft Certified: Azure Developer Associate</a></small>
+              <LiaAwardSolid className='about__icon'/>
+              <h5> Awards </h5>
+              <small> - Rockstar Rookie </small>
+              <br></br>
+              <small> - Standout Performer </small>
+              <br></br>
+              <small> - We Truly Appreciate </small>
+              <br></br>
             </article>
-          
           </div>
 
           <p> Hello! I'm Soundarya Lahari Valipe, a passionate and goal-driven software engineer with a strong academic background and hands-on experience in the field. I am currently pursuing my Master’s in Computer Science from the University of Central Florida. I completed my Bachelor of Technology in Computer Science at PES Institute of Technology in Bengaluru, India. </p>
